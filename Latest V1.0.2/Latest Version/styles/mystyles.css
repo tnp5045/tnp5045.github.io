@@ -1,0 +1,62 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-image: url(../images/123.jpg); 
+  background-size: 100%;
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 10em;
+}
+
+ul.navbar li a {
+  text-decoration: none;
+  display: block;
+  background: #121212;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black;
+}
+
+/* Change the link color on hover */
+ul.navbar li a:hover {
+  background-color: #555;
+  color: white;
+}  
+
+ul.navbar li a.active {
+  color: rgb(26, 184, 26);
+}
+/* Hover settings end */
+
+h1 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+}
+
+a:link {
+  color: lightskyblue;
+}
+
+a:visited {
+  color: lightpink;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(110, 110, 110);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(55, 55, 55);
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+}
